@@ -84,12 +84,11 @@ span {
 /* possibly change this  */
 .about-box p {
     max-width: 815px;
-}
-/* possibly change this  */
+} /* possibly change this  */
 
 .about-me img {
     padding-right: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 300px;
 
 }
