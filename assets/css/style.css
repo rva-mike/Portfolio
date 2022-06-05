@@ -1,0 +1,233 @@
+/* Universal Selector  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar and header  */
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(255, 99, 47);
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+
+/* .background {
+    background-image: url('../images/lauren-mancke-aOC7TSLb1o8-unsplash\ copy.png');
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+} */
+
+
+
+/* section title class  */
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    font-size: xxx-large;
+}
+
+
+
+/* about section  */
+
+.about-me {
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+    flex: initial 0 0;
+    line-height: 1.3;
+}
+
+span {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.about-box {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+.about-me img {
+    padding-right: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+
+}
+
+/* projects section  */
+
+.projects h2 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    /* border-bottom: 2px solid black;
+    width: 88px; */
+}
+
+
+h3 {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.project-examples {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-intro-p {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.main-project img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+
+/* the non-main / other projects start  */
+
+.other-projects {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.other-projects img {
+    width: 300px;
+    /* width: 25%;  */
+}
+
+.single-other-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    margin-bottom: 60px;
+}
+
+
+/* contact section start  */
+
+.contact {
+    text-align: center;
+}
+
+#contact {
+    margin-top: 0px;
+}
+
+.contact img {
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+/* Media Query Start  */
+
+@media screen and (max-width: 1070px) {
+    .other-projects img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .about-box {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .about-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-me img {
+        padding-right: 0px;
+    }
+}
+
+
+/* @media screen and (max-width: 813px) {
+    .single-other-projects img {
+        width: 400px;
+    }
+} */
+
+@media screen and (max-width: 655px) {
+    .single-other-projects img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 519px){
+    .main-project img {
+        width: 100%;
+    }
+}
+
+/* mike do this one, small other project cards  */
+@media screen and (max-width: 460px) {
+    .single-other-projects img {
+        width: 250px;
+    }
+}
