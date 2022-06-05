@@ -81,6 +81,12 @@ span {
     width: 75%;
 }
 
+/* possibly change this  */
+.about-box p {
+    max-width: 815px;
+}
+/* possibly change this  */
+
 .about-me img {
     padding-right: 30px;
     margin-bottom: 20px;
@@ -180,15 +186,20 @@ a {
     .other-projects img {
         width: 350px;
     }
+
+    .about-box{
+
+    }
 }
 
-@media screen and (max-width: 975px) {
+@media screen and (max-width: 999px) {
     .about-box {
         width: 85%;
     }
 }
 
-@media screen and (max-width: 865px) {
+
+@media screen and (max-width: 889px) {
     .about-box {
         display: flex;
         flex-direction: column;
