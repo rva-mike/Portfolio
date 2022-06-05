@@ -39,15 +39,10 @@ a:hover {
     gap: 25px;
 }
 
-
-/* .background {
-    background-image: url('../images/lauren-mancke-aOC7TSLb1o8-unsplash\ copy.png');
-    background-position:center;
-    background-size:cover;
-    background-repeat: no-repeat;
-} */
-
-
+footer .navbar {
+    display: flex;
+    justify-content: center;
+}
 
 /* section title class  */
 
