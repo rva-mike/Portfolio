@@ -6,6 +6,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* css variable  */
+
+:root {
+    --margin-bottom-px: 30px;
+}
+
 /* navbar and header  */
 
 .navbar {
@@ -88,7 +94,7 @@ span {
 
 .about-me img {
     padding-right: 30px;
-    margin-bottom: 30px;
+    margin-bottom: var(--margin-bottom-px);
     width: 300px;
 
 }
@@ -97,13 +103,12 @@ span {
 
 .projects h2 {
     margin-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: var(--margin-bottom-px);
     text-align: center;
 
     /* border-bottom: 2px solid black;
     width: 88px; */
 }
-
 
 h3 {
     margin-bottom: 10px;
@@ -115,7 +120,6 @@ a {
     text-decoration: none;
 }
 
-
 .project-examples {
     display: flex;
     flex-direction: column;
@@ -123,7 +127,7 @@ a {
 
 .projects-intro-p {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: var(--margin-bottom-px);
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -161,7 +165,6 @@ a {
     margin-bottom: 60px;
 }
 
-
 /* contact section start  */
 
 .contact {
@@ -175,9 +178,8 @@ a {
 .contact img {
     width: 200px;
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: var(--margin-bottom-px);
 }
-
 
 /* Media Query Start  */
 
@@ -211,7 +213,6 @@ a {
     }
 }
 
-
 /* @media screen and (max-width: 813px) {
     .single-other-projects img {
         width: 400px;
@@ -230,7 +231,6 @@ a {
     }
 }
 
-/* mike do this one, small other project cards  */
 @media screen and (max-width: 460px) {
     .single-other-projects img {
         width: 250px;
