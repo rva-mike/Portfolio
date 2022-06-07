@@ -11,4 +11,6 @@ Live URL: https://rva-mike.github.io/Portfolio/
 GitHub Repository: https://github.com/rva-mike/Portfolio
 
 ## Screenshot!
-[Portfolio_screenshot](https://user-images.githubusercontent.com/105617274/172501367-550d92a9-2066-4c23-a5be-c3b48b56c099.png)
+
+![Portfolio_screenshot](https://user-images.githubusercontent.com/105617274/172501579-7e816258-e27f-45eb-8b97-a3f89d63506b.png)
+
