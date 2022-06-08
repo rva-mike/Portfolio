@@ -38,7 +38,6 @@ a:hover {
     color: rgb(255, 99, 47);
 }
 
-
 .nav-list {
     list-style: none;
     display: flex;
@@ -59,8 +58,6 @@ footer .navbar {
     margin-top: 60px;
     font-size: xxx-large;
 }
-
-
 
 /* about section  */
 
