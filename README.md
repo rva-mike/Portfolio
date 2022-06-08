@@ -12,4 +12,5 @@ GitHub Repository: https://github.com/rva-mike/Portfolio
 
 ## Screenshot!
 
-![portfolio-screenshot1](https://user-images.githubusercontent.com/105617274/172502497-ed11bb61-8664-4275-967b-be19f57e4217.png)
+![screenshot_portfolio](https://user-images.githubusercontent.com/105617274/172504572-43a2b77d-73f7-42eb-bc6c-ca2d5c679441.png)
+
